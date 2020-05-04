@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - final-project-rework</title>
+  <meta charset="UTF-8">
+<meta lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--bootstrap nav-bar with required links-->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="https://rgnhoward.github.io/final-project/">Final Project Original</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://codepen.io/Rgnhoward/full/YzyEyqR">Solids -Stripes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://github.com/Rgnhoward">GitHub Profile</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://validator.github.io/validator/">Nu HTML Checker</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://wave.webaim.org/">WAVE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://codepen.io/Rgnhoward">CodePen</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://codepen.io/Rgnhoward/full/wvKrWgM">Drag-n-Drop</a>
+    </li>
+  </ul>
+  <br />
+</nav>
+<br />
+<!--Main Content on Bootstrap JumboTron-->
+<div>
+  <!--Main Header-->
+  <h1> Reagan's Final Project</h1>
+  <h1>Draggable Matching Cards</h1>
+</div>
+<!--Card Pile/Card Slots-->
+<div class="container">
+  <div class="jumbotron">
+    <!--Card Pile/Card Slots-->
+    <h1>Match the card with the correct slot</h1>
+    <div id="content">
+      <div id="cardPile"> </div>
+      <div id="cardSlots"> </div>
+      <!--Congrats on getting all cards/slots correct-->
+      <div id="successMessage">
+        <h2>You did it!</h2>
+        <!--Button click resets game-->
+        <button onclick="init()">Play Again</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/javascript-detect-element-resize/0.5.3/detect-element-resize.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
